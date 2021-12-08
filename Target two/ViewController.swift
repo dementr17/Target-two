@@ -30,7 +30,8 @@ class ViewController: UIViewController {
     
     @IBAction func startingButton(_ sender: UIButton) {
         buttonStart.setTitle("NEXT", for: .normal)
-        
+        //buttonStart.titleLabel?.font = UIFont.systemFont(ofSize: 30)
+        //почему-то не работает
         if redView.alpha != 1 && yellowView.alpha != 1 && greenView.alpha != 1 {
             redView.alpha = 1
         } else if yellowView.alpha != 1 && greenView.alpha != 1 {
