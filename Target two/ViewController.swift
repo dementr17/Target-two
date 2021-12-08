@@ -24,10 +24,13 @@ class ViewController: UIViewController {
         greenView.backgroundColor = .green
         greenView.layer.cornerRadius = 50
         greenView.alpha = 0.3
+        buttonStart.layer.cornerRadius = 10
+        buttonStart.backgroundColor = .systemBlue
     }
     
     @IBAction func startingButton(_ sender: UIButton) {
-        buttonStart.setTitle("Next", for: .normal)
+        buttonStart.setTitle("NEXT", for: .normal)
+        
         if redView.alpha != 1 && yellowView.alpha != 1 && greenView.alpha != 1 {
             redView.alpha = 1
         } else if yellowView.alpha != 1 && greenView.alpha != 1 {
@@ -65,3 +68,4 @@ class ViewController: UIViewController {
 
 }
 
+//
