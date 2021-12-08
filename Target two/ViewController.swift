@@ -46,6 +46,7 @@ class ViewController: UIViewController {
         }
 // не смог понять почему такой вариант не работает :(
 //
+//
 //        if redView.alpha == 0.3 &&
 //            yellowView.alpha == 0.3 &&
 //            greenView.alpha == 0.3 {
