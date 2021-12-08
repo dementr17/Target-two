@@ -43,7 +43,6 @@ class ViewController: UIViewController {
             greenView.alpha = 0.3
             redView.alpha = 1
         }
-        
 // не смог понять почему такой вариант не работает :(
 //
 //        if redView.alpha == 0.3 &&
